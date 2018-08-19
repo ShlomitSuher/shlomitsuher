@@ -1,0 +1,31 @@
+#table1{
+    border-style: solid;
+    background-color: lightblue;
+    margin-top: 0ch;
+}
+
+td{
+    width: 5px;
+    height: 5px;
+    border-style: solid;
+}
+
+#table2{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: gray;
+    border-style: solid;
+}
+
+#td1{
+    border-bottom: dotted;
+}
+
+.td2{
+    border-bottom: dotted;
+    border-top: dotted;
+}
+
+#td3{
+    border-top: dotted;
+}
