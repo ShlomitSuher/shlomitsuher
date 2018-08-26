@@ -1,0 +1,46 @@
+#im1{
+    width: 200px;
+    animation: outside 2s infinite;
+    position: relative;  
+    z-index: 1;
+}
+
+@keyframes outside{
+0%{left: 200px; top: 0px;}
+25%{left:800px; top:0px;}
+50%{left:800px;top:450px;}
+75%{left:200px; top:450px;}
+100%{left: 200px; top: 0px;}
+}
+
+#im2{
+    width: 200px;
+    animation: inside 2s infinite;
+    position: relative;  
+    z-index: 1;
+}
+
+@keyframes inside{
+    0%{left:400px; top: 150px;}
+    25%{left:200px; top:150px;}
+    50%{left:200px; top:300px;}
+    75%{left:400px; top:300px;}
+    100%{left:400px; top:150px;}
+}
+
+#im3{
+  opacity: 0;
+  width:100px; 
+  margin-left: 150px;
+  margin-top: 250px;
+  position: absolute;
+  z-index: 2;
+  transition: all 1s ease-in-out; 
+  transition-duration: 1s;
+}
+
+#im3:hover{
+    transform: scale(15, 15); 
+    opacity: 100;
+    
+}
