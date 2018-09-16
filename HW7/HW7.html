@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "HW7.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    </head>
+
+    <body>
+
+
+        <h1 style="text-align: center">What are you looking for?</h1>
+
+<br><br>
+<div class="container">
+<table>
+    <tr><td>Company:</td><td><input type="text" id="input1"></td><td><span id="sp1"></span></td></tr>
+    <tr><td>Type:</td><td><input type="text" id="input2"></td><td><span id="sp2"></span></td></tr>
+    <tr><td>Engine size:</td><td><input type="number" id="input3"></td><td><span id="sp3"></span></td></tr>
+</table>
+<br><br>
+<table>
+    <tr>
+        <th>color:</th><th></th><th>number of seats:</th></tr>
+    <tr>
+        <td class="td1">
+            <input type="checkbox" id="cb1"><span>red</span><br>
+            <input type="checkbox" id="cb2"><span>blue</span><br>
+            <input type="checkbox" id="cb3"><span>white</span><br>
+            <input type="checkbox" id="cb4"><span>black</span><br>
+            <span id="sp4"></span></td>
+        <td></td>
+        <td class="td1">
+             <select id="sn1">
+                <option value="sn"></option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+             </select><br>
+             <span id="sp5"></span>
+        </td>
+    </tr>
+</table>
+<br><br>
+<button onclick="checkAll()">Check</button>
+<br><br>
+
+<div><br><br><br></div>
+
+<div id="div1" style="display: none">
+<p>
+    Company:<span id="company"></span><br>
+    Type:<span id="type"></span><br>
+    Engine Size:<span id="engine"></span><br>
+    Color:<span id="color"></span><br>
+    Number of seats:<span id="seats"></span><br>
+</p>
+</div>
+
+</div>
+
+
+
+     <script type="text/javascript" src="HW7.js"></script>
+    </body>
+    </html>
