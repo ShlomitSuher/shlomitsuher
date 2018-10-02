@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "HW8.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    </head>
+
+    <body>
+
+
+
+<p>Only even:</p><button onclick="even()">Start!</button>
+<p id="b7"></p>
+
+<button onclick="randomNum()">1-1000 Random Number!</button><p id="p1"></p>
+
+<input type="text" id="input1"><button onclick="Reverse()">Reverse me</button><p id="p2"></p>
+
+<input type="number" id="num1"><button onclick="func()">Insert number</button><p id="p3"></p>
+
+<button onclick="random()">Random Number!</button><p id="p4"></p>
+
+<input type="text" id="input2"><button onclick="addSpace()">add space</button><p id="p6"></p>
+
+<input type="text" id="input3"><button onclick="palindrome()">palindrome</button><p id="p7"></p>
+
+<input type="text" id="input4"><button onclick="bubbles()">sort</button><p id="p8"></p>
+
+<input type="text" id="input5"><input type="text" id="input6"><button onclick="func7()">check occurrence</button><p id="p9"></p>
+
+<input type="text" id="input7"><button onclick="nonum()">remove numbers</button><p id="p10"></p>
+
+<h3>My Calculator</h3>
+<div>
+<form name="calculator">
+    <input name="display" placeholder="0" id="one">
+    <br>
+    <input type="button" value="7" onclick="document.calculator.display.value+='7'">
+    <input type="button" value="8" onclick="document.calculator.display.value+='8'">
+    <input type="button" value="9" onclick="document.calculator.display.value+='9'">
+    <input type="button" value="+" onclick="btnplus()">
+    <br>
+    <input type="button" value="4" onclick="document.calculator.display.value+='4'">
+    <input type="button" value="5" onclick="document.calculator.display.value+='5'">
+    <input type="button" value="6" onclick="document.calculator.display.value+='6'">
+    <input type="button" value="-" onclick="btnsub()">
+    <br>
+    <input type="button" value="1" onclick="document.calculator.display.value+='1'">
+    <input type="button" value="2" onclick="document.calculator.display.value+='2'">
+    <input type="button" value="3" onclick="document.calculator.display.value+='3'">
+    <input type="button" value="*" onclick="btnmult()">
+    <br>
+    <input type="button" value="0" onclick="document.calculator.display.value+='0'">
+    <input type="button" value="%" onclick="btnmod()">
+    <input type="button" value="." onclick="btndot()">
+    <input type="button" value="/" onclick="btndiv()">
+    <br>
+    <input type="button" value="=" onclick="document.calculator.display.value=eval(document.calculator.display.value)" id="eq">
+    <input type="button" value="Del" onclick="btndel()">
+    <input type="button" value="C" onclick="btnclean()">
+    <br>
+
+</form>
+</div>
+
+     <script type="text/javascript" src="HW8.js"></script>
+    </body>
+    </html>
