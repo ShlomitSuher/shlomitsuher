@@ -1,0 +1,40 @@
+div form input{
+    width: 80px;
+    height: 70px;
+    font-size: 40px;
+    border-radius: 8px;
+    background-color: rgb(8, 71, 8);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#one{
+    width: 330px;
+    height: 60px;
+    background-color: yellowgreen;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 8px;
+    margin: 2px;
+    border-color: black;
+    padding: 5px;
+}
+
+#eq{
+    width: 165px;
+}
+
+.dice{
+    float: left;
+    width: 75px;
+    height: 75px;
+    background: aqua;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
